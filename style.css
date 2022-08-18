@@ -1,0 +1,168 @@
+body {
+    background: white;
+    font-family: arial, sans-serif;
+    background-color: #abc4ff;
+    font-size: 0.75em;
+  }
+  
+  .small {
+    background-color: #cdb4db;
+    
+    
+  }
+  
+  .medium {
+    background-color: #80ed99;
+  }
+  
+  .large {
+    background-color: #5e60ce;
+    flex : 2;
+  }
+
+  .quantity{
+    text-align: right;
+  }
+  .order{
+    margin: 50em;
+  }
+  
+  .specials div {
+    flex: 1;
+
+    margin: 0em;
+    padding: 1em;
+    
+  }
+  
+  .small img {
+    width: 4em;
+  }
+  
+  .medium img {
+    width: 5em;
+  }
+  
+  
+  .large img {
+    width: 7em;
+    
+  }
+  
+  
+
+  
+  .footer {
+    display: flex;
+  }
+  
+  .footer div {
+    flex: 1;
+  /*   border: 1px solid;
+     */  margin-top: 1em;
+    padding: 1em;
+    background-color: #fec89a;
+  }
+  
+  
+  @media (min-width: 768px){
+  
+    .specials {
+      display: flex;
+    }
+    
+
+  }
+  
+  .section-header{
+    text-align: center;
+  }
+
+ 
+  .Mdesign{
+    font-size:22px;
+    border-width:2px;
+    border-style:solid;
+    text-decoration:none;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:40px;
+  }
+  
+  .Fdesign{
+    font-family: 'Lobster', cursive;
+    color:white;
+  }
+  
+  .Bdesign{
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  .S{
+    background-color:#EC407A;
+    border-color:#F8BBD0;
+    color:#F8BBD0;
+  }
+  
+  .W{
+    background-color:#42A5F5;
+    border-color:#BBDEFB;
+    color:#BBDEFB;
+  }
+  
+  .AW{
+    background-color:#009688;
+    border-color:#80CBC4;
+    color:#80CBC4;
+  }
+  
+  .Soypcw{
+    background-color:#FFEB3B;
+    border-color:#FFF9C4;
+    color:#FFF9C4;
+  }
+  
+  .Y{
+    background-color:#621822;
+    border-color:#c4bf94;
+    color:#FFF9C4;
+  }
+  
+  
+  html {
+    height:100%;
+  }
+  
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+ 
+    
